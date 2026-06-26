@@ -1,4 +1,4 @@
-package lehuuhoanganh.servlet;
+package lehuuhoanganh.order;
 
 import java.io.IOException;
 import java.io.PrintWriter;

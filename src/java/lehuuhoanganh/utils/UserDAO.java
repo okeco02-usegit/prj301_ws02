@@ -27,7 +27,7 @@ public class UserDAO {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String connectionString = "jdbc:sqlserver://localhost:1433;database=LeHuuHoangAnh_SU26";
             //SQL Server Authentication
-            Connection cnn = DriverManager.getConnection(connectionString, "sa", "123");
+            Connection cnn = DriverManager.getConnection(connectionString, "sa", "12345");
             return cnn;
         } catch (ClassNotFoundException | SQLException ex) {
             throw ex;
